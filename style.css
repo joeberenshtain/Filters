@@ -1,0 +1,49 @@
+#imagefield{
+    position: absolute;
+
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 512px;
+    height: 512px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+  }
+.container {
+    position: absolute;
+
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 512px;
+    height: 512px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+select {
+    border-radius: 4px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+
+    color: black;
+    font-size: 20px;
+}
+.apply {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    aspect-ratio: 1;
+    font-size: 50px;
+    background-color: white;
+}
+.setup {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

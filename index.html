@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="file">Enter an image:</label>
 
     <input type="file"
            id="avatar" name="avatar"
@@ -27,11 +26,14 @@
         
         <input type="range" min="1" max="256" value="1" class="slider" id="range"><br>
     </div>
-    <button onclick="filter(filters[list.value])" class="apply">-></button>
 
-    <img src="" alt="" id="imagefield">
-        <canvas id="canvas" class="container"></canvas>
+    <div class="container">
+        <img src="" alt="" id="imagefield">
+        <button onclick="filter(filters[list.value])" class="apply">-></button>
+
+        <canvas id="canvas" class="canvasfield"></canvas>
     </div>
+
     <script src="main.js"></script>
 </body>
 </html>
